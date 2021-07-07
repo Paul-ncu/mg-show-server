@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    username: xiaohao
+    password: Mama1972!
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://120.79.164.108:3306/myGirl?useUnicode=true&characterEncoding=utf-8
+    hikari: 
+      max-lifetime: 5000000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  redis:
+    host: 120.79.164.108
+    port: 6379
+logging:
+  level:
+    root: info
+    com.ncu: debug
+  file:
+    path: log/myGirl-prod.log
+server:
+  port: 8082

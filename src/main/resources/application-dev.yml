@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    username: root
+    password: 1997
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/myGirl?useUnicode=true&characterEncoding=utf-8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  level:
+    root: info
+    com.ncu: debug
+  file:
+    path: log/myGirl-dev.log
+server:
+  port: 8080
