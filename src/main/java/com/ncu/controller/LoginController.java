@@ -26,8 +26,8 @@ public class LoginController {
 	
 	Logger logger = LoggerFactory.getLogger(LoginController.class);
 	
-	private final String APPID = "wx664937a3ae400151";
-	private final String APPSECRET = "ce2173ae2851ad0e0012771a23b32bbb";
+	private final String APPID = "your appid";
+	private final String APPSECRET = "your appsecret";
 
 	/**
 	 * 接收微信客户端发送过来的code，获取用户唯一标识openid
